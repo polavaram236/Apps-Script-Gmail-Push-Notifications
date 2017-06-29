@@ -11,7 +11,7 @@ function doGet(){
   */
   
   
-  //return CloudAuthWindow() // run this once to get the token for the server
+  return CloudAuthWindow() // run this once to get the token for the server
   return GmailAuthWindow(); // run this to enroll an email;
 }
 
